@@ -3,12 +3,23 @@
  */
 package basic.demo;
 
+import java.util.*;
+// import org.joda.time.LocalTime;
+
+
 public class App {
     public String getGreeting() {
-        return "Hello world.";
+        return "Hello world.>>>";
     }
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~App-main~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println(new App().getGreeting());
+
+
+        // final LocalTime currentTime = new LocalTime();
+        // System.out.println("The current local time is: " + currentTime);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        
     }
 }
